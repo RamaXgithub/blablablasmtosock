@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/api/index.js" },
+    { "src": "/fix", "dest": "/api/fixto.js" },
+    { "src": "/status", "dest": "/api/status.js" },
+    { "src": "/test", "dest": "/api/testsend.js" }
+  ]
+}
